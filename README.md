@@ -1,5 +1,7 @@
 Retail Commercial Strategy & Loyalty Diagnostics
-📊 Executive Summary
+
+Executive Summary
+
 Action:
 Engineered an end-to-end data pipeline by enriching raw POS data with calculated fields in Excel (Loyalty_Flag, Basket_Size_Category, etc.) to enable efficient SQL aggregation. Built an RFM (Recency, Frequency, Monetary) segmentation model in MySQL using NTILE(4) quartile scoring across 1,000 loyalty customers—classifying them into Elite, Active & Engaged, At-Risk, and Lost/Inactive tiers—and visualized the findings across a multi-page Power BI dashboard.
 
