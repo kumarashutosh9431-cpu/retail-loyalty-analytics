@@ -12,7 +12,7 @@ Impact:
 Quantified a ₹1.55 Crore revenue attribution opportunity by proposing a targeted enrollment strategy for the top 10% of high-value non-loyalty walk-ins. Projected a ₹2.76L incremental revenue recovery through personalized, time-limited re-engagement campaigns for disengaged cohorts, and modeled a further ₹14.93L uplift by designing targeted "brand discovery" promotions aimed at loyalty customers with no prior purchase history of the underperforming brands.
 
 📂 Repository Contents
-Interactive Dashboard: [Link to NovyPro]
+Interactive Dashboard,
 
 Executive Report: Marketing_&_Retail_Analytics_Report.pdf
 
