@@ -37,6 +37,7 @@ Finding 4 — 28 Brands Contribute Less Than 0.5% Each to Total Revenu
 Finding 5 — Basket Size Distribution Reveals a Large Mid-Tier Opportunity
 
 💡 Recommendations
+
 Opportunity 1 — Re-engage At-Risk & Lost Customers
 Target: 388 customers (232 At-Risk + 156 Lost/Inactive)
 Estimated Revenue Impact: ₹2.76L
