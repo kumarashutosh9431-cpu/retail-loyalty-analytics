@@ -1,17 +1,21 @@
 Retail Commercial Strategy & Loyalty Diagnostics
 
 📌 Business Problem Statement
+
 A multi-format grocery retailer operates 20 stores across three formats — Hypermarket, Supermarket, and Submarket — with a loyalty program that allows enrolled customers to earn and redeem benefits across all formats.
 Despite having 1,000 enrolled loyalty members, loyalty sales contribute only 24.9% of total revenue (₹51.83L) — far below the industry benchmark of 35–40%. This represents a potential revenue gap of ₹2.1–₹3.1 Crore.
 
 Two core business problems were investigated:
+
 Loyalty Underperformance — Identify which customers to target to increase loyalty revenue contribution, and how to convert high-value unknown customers into the program
 Brand Underperformance — Identify brands with <0.5% revenue contribution and develop a targeted customer list for promotional intervention
 
 🛠️ Tools Used
+
 Microsoft Excel - Data cleaning, column engineering, RFM scoring, pivot tables; MySQL(via DBeaver) - SQL aggregations, RFM NTILE scoring, customer segmentation queries; Power BI Desktop -Interactive 3-page dashboard — KPIs, RFM visuals, brand performance
 
 SQL Concepts Applied
+
 WITH CTEs · NTILE(4) window functions · DATEDIFF · CASE/WHEN · HAVING · Subqueries · Window aggregations (SUM() OVER())
 Excel Features Used
 IFS · SUMIF / COUNTIF / AVERAGEIF · ISBLANK · Conditional Formatting · PivotTables · Named Ranges
@@ -19,6 +23,7 @@ Power BI Features Used
 DAX measures · Data Modeling (relationships) · Slicers · Drill-through · Conditional formatting on visuals · Constant reference lines
 
 ❓ Key Business Questions Answered
+
 What is the current loyalty revenue contribution vs the expected benchmark?
 Which loyalty customers are Champions, Active, At-Risk, or Dormant?
 Which store formats have the lowest loyalty penetration?
@@ -28,6 +33,7 @@ Which loyalty customers have never purchased underperforming brands?
 Is there a seasonal pattern in loyalty engagement?
 
 🔍 Top 5 Findings
+
 Finding 1 — The Loyalty Gap Is an Enrollment Problem, Not a Spend Problem
 Loyalty customers and non-loyalty customers spend almost the same per visit — yet loyalty contributes only 24.9% of revenue.
 Finding 2 — Loyalty Penetration Is Uniformly Low Across All Store Formats
@@ -60,6 +66,7 @@ Target list generated via SQL cross-reference of loyalty customers vs underperfo
 If all 28 brands reach the 0.5% threshold: revenue from this group grows from ₹14.26L → ₹29.19L (+₹14.93L)
 
 ⚠️ Limitations
+
 Single category analysis — The dataset covers only the Food category. Findings may not generalize to other product categories the retailer carries.
 No customer demographics — Without age, gender, or location data, customer segmentation is limited to behavioral (RFM) dimensions only. Demographic targeting could further sharpen campaign precision.
 Loyalty program mechanics unknown — The dataset does not contain information on points earned, redemptions, or tier structures. This limits the ability to assess whether the loyalty program design itself is contributing to low engagement.
